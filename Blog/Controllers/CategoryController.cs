@@ -132,7 +132,7 @@ public class CategoryController : ControllerBase
         }
         catch (Exception e)
         {
-            return StatusCode(500, "Não foi possível excluir a catgoria.");
+            return StatusCode(500, "Não foi possível excluir a categoria.");
         }
     }
 
